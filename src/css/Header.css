@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.header-img{
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    background-image: url("../img/marvelBG4.jpg");
+    height: 200px;
+    border-image-repeat: repeat;
+}
+.head-text{
+    font-family: 'Bangers', cursive;
+
+    color: rgb(253, 242, 242);
+    font-size: 75px;
+    padding-top: 3%;
+    text-shadow: 0 0 3px #041c88;
+}
+.navbar{
+    /* background-color: #202e63; */
+    background-image: linear-gradient(to bottom, #2f4390, #2a3c81, #253572, #202e63, #1b2755) !important;
+    font-family: 'Bangers', cursive;
+}
+@media only screen and (max-width:750px) {
+    .head-text{font-size: 50px;}
+    
+}

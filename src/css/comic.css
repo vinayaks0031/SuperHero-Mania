@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.container{
+    text-align: center !important;
+}
+.card{
+    width: 20%;
+    height: 400px;
+    padding: 1%;
+}
+.card-img-top{
+    height:250px !important;
+}
+.card-body{
+    overflow: auto;
+
+}
+.instruc{
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+    cursor: pointer;
+}
