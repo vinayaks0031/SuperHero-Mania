@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import '../css/comic.css'
 import DefaultCards from './subcomponent/DefaultCards';
-// import ComicCard from './subcomponent/ComicCard';
 
 export default function Comic() {
     const [inputData, setinputData] = useState("");
@@ -20,7 +19,7 @@ export default function Comic() {
     const getDataBySearch = async () => {
         const publickey = '1f2bf00e3fc21a5a0d0150c65c32cf9b';
         const hash = "eb252b6e38c4fd8d323b4d22859b5430";
-        const response = await fetch(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${inputData}&ts=1&apikey=${publickey}&hash=${hash}`);
+        const response = await fetch(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${inputData}&ts=1&apikey=${publickey}&hash=${hash}`);
         const data = await response.json();
         setApiData(data.data.results);
     }
@@ -28,7 +27,7 @@ export default function Comic() {
     const getData = async () => {
         const publickey = '1f2bf00e3fc21a5a0d0150c65c32cf9b';
         const hash = "eb252b6e38c4fd8d323b4d22859b5430";
-        const response = await fetch(`http://gateway.marvel.com/v1/public/characters?ts=1&apikey=${publickey}&hash=${hash}`);
+        const response = await fetch(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${publickey}&hash=${hash}`);
         const data = await response.json();
         setApiData(data.data.results);
 
