@@ -52,7 +52,7 @@ export default function Comic() {
                     </div>
                 </div>
             </nav>
-            {isComic ? <DefaultCards aData={apiComicData} isComic={isComic} heading="Comics" para="Search you favorite Comic" /> : <DefaultCards aData={apiData} isComic={isComic} heading="Heros" para="Search you favorite Comicsearch you favorite hero by there firstname (eg. spider for spider man)" />}
+            {isComic ? <DefaultCards aData={apiComicData} isComic={isComic} heading="Comics" para="Search you favorite Comic by their names (avoid blank space)" /> : <DefaultCards aData={apiData} isComic={isComic} heading="Heros" para="Search you favorite Comicsearch you favorite hero by there firstname (eg. spider for spider man)" />}
         </>
     )
 }
