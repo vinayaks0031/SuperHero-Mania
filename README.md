@@ -10,7 +10,7 @@ The website is live at [superheromania.netlify.app](https://superheromania.netli
 
 The main usage is to provide you all the data about superheroes and comic books. you just have to navigate what you want to search hero or comics. here is a screenshot below to get a better idea.  
 
-![Screenshot1](./src/img/Screenshot1.png)
+![Screenshot1](https://user-images.githubusercontent.com/76878117/141995224-efa758e5-1846-4b31-8c32-ed4a094b60cc.png)
 
 ## Installation
 
