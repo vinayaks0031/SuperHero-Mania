@@ -30,7 +30,6 @@ export default function Comic() {
         const response = await fetch(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${publickey}&hash=${hash}`);
         const data = await response.json();
         setApiData(data.data.results);
-
     }
     useEffect(() => {
         getData();
